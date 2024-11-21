@@ -105,4 +105,16 @@
         android:padding="12dp"
         android:layout_marginTop="16dp"
         android:visibility="gone" />
+
+    <!-- Copyright Notice -->
+    <TextView
+        android:id="@+id/copyright_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2024 Cruise Tech Solutions. All rights reserved."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:padding="8dp" />
 </LinearLayout>

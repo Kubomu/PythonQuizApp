@@ -26,7 +26,7 @@ Users can restart the quiz and retake it.
 ![Home Screen](screenshots/home.png)
 
 ### Results Screen
-![Results Screen](screenshots/results.png)
+![Results Screen](screenshots/result.png)
 
 ## Technologies
 

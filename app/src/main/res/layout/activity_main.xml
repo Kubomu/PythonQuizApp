@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Question Text -->
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Answer Options -->
+    <RadioGroup
+        android:id="@+id/answer_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/radio_group_bg"
+        android:padding="8dp"
+        android:elevation="2dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:buttonTint="@color/radio_button_color"
+            android:textSize="16sp"
+            android:layout_margin="4dp" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:buttonTint="@color/radio_button_color"
+            android:textSize="16sp"
+            android:layout_margin="4dp" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:buttonTint="@color/radio_button_color"
+            android:textSize="16sp"
+            android:layout_margin="4dp" />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 4"
+            android:buttonTint="@color/radio_button_color"
+            android:textSize="16sp"
+            android:layout_margin="4dp" />
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        android:elevation="6dp" />
+
+    <!-- Result TextView (for showing results after quiz completion) -->
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="24dp"
+        android:visibility="gone"/>
+
+    <!-- Restart Button (to restart the quiz) -->
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restart Quiz"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+</LinearLayout>

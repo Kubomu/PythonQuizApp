@@ -1,8 +1,10 @@
+
 # Python Quiz App
 
 ## Overview
 The Python Quiz App is an Android-based quiz application that tests the user's knowledge of the Python programming language. It provides multiple-choice questions on various Python topics and tracks the user's score. The app also displays the correct answers after completing the quiz.
-Still under construction......
+
+**Note:** This app is still under development. Collaborators are welcome to join and contribute to the project.
 
 ## Features
 
@@ -17,6 +19,14 @@ The app shows the correct answers for each question after the quiz ends.
 
 ### Restart functionality
 Users can restart the quiz and retake it.
+
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/home.png)
+
+### Results Screen
+![Results Screen](screenshots/results.png)
 
 ## Technologies
 
